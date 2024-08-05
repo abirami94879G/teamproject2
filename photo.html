@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Image Gallery</title>
+    <link rel="stylesheet" href="photo.css">
+    <link rel="icon" href="./icon.jpg">
+</head>
+<body>
+    <div class="text-container">
+        <div class="letter">P</div>
+        <div class="letter">H</div>
+        <div class="letter">O</div>
+        <div class="letter">T</div>
+        <div class="letter">O</div>
+    </div>
+    <div class="gallery">
+        <div class="gallery-item">
+            <img src="./img1.jpeg" onclick="openImage('./img1.jpeg')">
+        </div>
+        <div class="gallery-item">
+            <img src="./img2.jpeg" onclick="openImage('./img2.jpeg')">
+        </div>
+        <div class="gallery-item">
+            <img src="./img3.jpg" onclick="openImage('./img3.jpg')">
+        </div>
+        <div class="gallery-item">
+            <img src="./img4.jpg" onclick="openImage('./img4.jpg')">
+        </div>
+        <div class="gallery-item">
+            <img src="img5.webp" onclick="openImage('img5.webp')">
+        </div>
+        <div class="gallery-item">
+            <img src="./img6.jpeg" onclick="openImage('./img6.jpeg')">
+        </div>
+        <div class="gallery-item">
+            <img src="./img7.jpeg" onclick="openImage('./img7.jpeg')">
+        </div>
+        <div class="gallery-item">
+            <img src="./img8.jpeg" onclick="openImage('./img8.jpeg')">
+        </div>
+        <div class="gallery-item">
+            <img src="./img9.jpeg" onclick="openImage('./img9.jpeg')">
+        </div>
+        <div class="gallery-item">
+            <img src="./img10.jpeg" onclick="openImage('./img10.jpeg')">
+        </div>
+        <div class="gallery-item">
+            <img src="./img11.jpeg" onclick="openImage('./img11.jpeg')">
+        </div>
+        <div class="gallery-item">
+            <img src="./img12.jpeg" onclick="openImage('./img12.jpeg')">
+        </div>
+    </div>
+    <div class="photo-text">
+        <div>G</div>
+        <div>A</div>
+        <div>L</div>
+        <div>L</div>
+        <div>E</div>
+        <div>R</div>
+        <div>Y</div>
+    </div>
+    
+    <div class="fullimg" id="fullimgbox">
+        <img src="" alt="" id="fullimg">
+        <span onclick="closeImage()">X</span>
+    </div>
+    
+    <script src="photo.js"></script>
+</body>
+</html>
